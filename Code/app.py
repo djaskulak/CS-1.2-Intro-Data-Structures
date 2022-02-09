@@ -4,6 +4,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+'''test comment'''
+
 
 @app.before_first_request
 def before_first_request():
